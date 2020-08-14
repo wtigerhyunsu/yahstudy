@@ -4,9 +4,9 @@ https://ml-app.yah.ac/
 
 > 링크를 통한 실습 
 
-![image-20200814212445805](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20200814212445805.png)
+![image-20200814212445805](https://user-images.githubusercontent.com/58680521/90260966-40f57200-de87-11ea-92aa-e067670de169.png)
 
-![image-20200814212508793](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20200814212508793.png)
+![image-20200814212508793](https://user-images.githubusercontent.com/58680521/90260979-481c8000-de87-11ea-8066-c0f49eb18ece.png)
 
 ## 애플리케이션  = 응용
 

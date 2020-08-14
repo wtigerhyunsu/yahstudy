@@ -2,11 +2,11 @@
 
 달라 질수 있는 값 
 
-![image-20200814221510396](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20200814221510396.png)
+![image-20200814221510396](https://user-images.githubusercontent.com/58680521/90260419-6c2b9180-de86-11ea-8fe1-b65a18f34bc9.png)
 
 표에서 column 을 변수라고 한다 .
 
-![image-20200814221708097](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20200814221708097.png)
+![image-20200814221708097](https://user-images.githubusercontent.com/58680521/90260471-7cdc0780-de86-11ea-8ce0-cebebb9417f0.png)
 
 > 온도와 판매량 이  관련이 있어 보인다. 하나의 표안에는 두가지가 모두 표현된다. 지도학습은 이 두가지를 구분하는 것에서 시작된다. 
 
@@ -18,9 +18,9 @@
 >
 > 데이터를 불러오고 데이터를 분리하는 것을 할수있다 실습에 이용한다 
 
-![image-20200814222016986](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20200814222016986.png)
+![image-20200814222016986](https://user-images.githubusercontent.com/58680521/90260505-8bc2ba00-de86-11ea-83d6-4b368d817b7a.png)
 
-https://github.com/blackdew/tensorflow1/tree/master/csv >>>> 코드 
+https://github.com/blackdew/tensorflow1/tree/master/csv >>>> data 
 
 ## 실습을 통해 배울 도구 
 
@@ -32,7 +32,7 @@ https://github.com/blackdew/tensorflow1/tree/master/csv >>>> 코드
 
 > [[https://raw.githubusercontent.com/blackdew/tensorflow1/master/csv/lemonade.csv ](https://www.youtube.com/redirect?redir_token=QUFFLUhqbjJTUFFTd0hRWjR0Umx2UkRFVGNvdE5Ca05WZ3xBQ3Jtc0trRHppT01LVUVmTEtJbTZzV0VCSEhBbFpCMVBVUnFoc3FxRWRWWmdtbDljVXZlLWpycU5fNFg1VDBZR29XR2labUxiMjdlaklFMnZ4S2tMbWFWd0F2VWQyY0RPcDdZekh3UUpXN0JJdHA2RU5iX1BxNA%3D%3D&q=https%3A%2F%2Fraw.githubusercontent.com%2Fblackdew%2Ftensorflow1%2Fmaster%2Fcsv%2Flemonade.csv&stzid=Ugygk-_byVfYAFKSPVx4AaABAg&event=comments) [https://raw.githubusercontent.com/blackdew/tensorflow1/master/csv/boston.csv ](https://www.youtube.com/redirect?redir_token=QUFFLUhqbmFsbXdpTkVuV1pQaU1FcDYzakxEbHZVaW1LZ3xBQ3Jtc0tubWJwcUotM2N5VGRld1QzZnFfTDB6QUhjYnZlOVZac0dBRU52eVotVzM4ZlZKLXJxUktReFlrVU43QjRuQ1VfQ1RPbTFkV0VoQ0VXaTJMZnQwOWNlUWJtX2Y0UDNyX1VHTFVvRnVZUnliQ1RZaFloWQ%3D%3D&q=https%3A%2F%2Fraw.githubusercontent.com%2Fblackdew%2Ftensorflow1%2Fmaster%2Fcsv%2Fboston.csv&stzid=Ugygk-_byVfYAFKSPVx4AaABAg&event=comments) [https://raw.githubusercontent.com/blackdew/tensorflow1/master/csv/iris.csv]
 
-![image-20200814223033500](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20200814223033500.png)
+![image-20200814223033500](https://user-images.githubusercontent.com/58680521/90260560-9ed58a00-de86-11ea-87d9-9dfdefb543e7.png)
 
 # 데이터 모양으로 확인하기 
 ```python
@@ -71,15 +71,15 @@ print(독립.shape, 종속.shape)
 
 ### 지도 학습 방법
 
-![image-20200814224448972](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20200814224448972.png)
+![image-20200814224448972](https://user-images.githubusercontent.com/58680521/90260594-ae54d300-de86-11ea-94a8-1b951793640e.png)
 
-![image-20200814224903654](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20200814224903654.png)
+![image-20200814224903654](https://user-images.githubusercontent.com/58680521/90260639-be6cb280-de86-11ea-838e-17add578add0.png)
 
 > 매칭 시켜본다 
 >
 > 우리가 준비한 독립 변수  종속 변수의 개수가 들어간다 input 에 독립변수가 Dense 에 종속 변수가 들어간다 
 
-![image-20200814225108072](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20200814225108072.png)
+![image-20200814225108072](https://user-images.githubusercontent.com/58680521/90260686-d0e6ec00-de86-11ea-867d-0c8eef34f349.png)
 
 > epochs 는 몇번 반복해서 학습할지를 결정 해주는 숫자 
 >
@@ -87,7 +87,7 @@ print(독립.shape, 종속.shape)
 
 ## model.fit(독립,종속 epochs=10) 
 
-![image-20200814225436966](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20200814225436966.png)
+![image-20200814225436966](https://user-images.githubusercontent.com/58680521/90260716-dd6b4480-de86-11ea-8743-f5181b254d36.png)
 
 > 10 번 반복해서 학습하라고 제시한 코드 
 >
@@ -105,7 +105,7 @@ print(독립.shape, 종속.shape)
 
 loss 확인 결과
 
-![image-20200814231341498](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20200814231341498.png)
+![image-20200814231341498](https://user-images.githubusercontent.com/58680521/90260754-ea883380-de86-11ea-99b1-449a42ff968e.png)
 
 > verbose =0 을 위에 붙여 주면 학습 내용이 출력 x 
 

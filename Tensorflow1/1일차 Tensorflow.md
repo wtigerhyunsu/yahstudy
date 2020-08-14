@@ -8,13 +8,13 @@
 
 ## 라이브러리에서 AI까지 이어지는 계층구조 
 
-![image-20200813194757593](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20200813194757593.png)
+![image-20200813194757593](https://user-images.githubusercontent.com/58680521/90260281-3e464d00-de86-11ea-8cb2-1576e2336a11.png)
 
 > 우리는 여기서 Neural Network를 활용할것이다 라이브러리는 TensorFlow를 사용
 
 ### Neural Network
 
-![image-20200813195115099](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20200813195115099.png)
+![image-20200813195115099](https://user-images.githubusercontent.com/58680521/90260336-53bb7700-de86-11ea-9fb7-c34dbbb102d1.png)
 
 사람의 두뇌가 동작하는 방법을 모방해서 기계학습을 시킨다. 사람의 두뇌는 뉴런이라는 세포들이 촙촙하게 연결되어있는데 이것을 신경망이라고 부르고 인공으로 만들었다 해서 인공 신경망이라고 이름을 붙였다.
 
